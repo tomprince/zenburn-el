@@ -684,7 +684,7 @@
      `(org-level-8 ((t (:foreground ,zenburn-blue-4))))
      `(org-link ((t (:foreground ,zenburn-yellow-2 :underline t))))
      `(org-scheduled ((t (:foreground ,zenburn-green+4))))
-     `(org-scheduled-previously ((t (:foreground ,zenburn-red-4))))
+     `(org-scheduled-previously ((t (:inherit zenburn-highlight-alerting))))
      `(org-scheduled-today ((t (:foreground ,zenburn-blue+1))))
      `(org-special-keyword ((t (:foreground ,zenburn-yellow-1))))
      `(org-table ((t (:foreground ,zenburn-green+2))))
