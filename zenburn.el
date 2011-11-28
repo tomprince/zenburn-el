@@ -259,7 +259,7 @@
      '(highlight ((t (:underline t))))
      '(paren ((t (:inherit zenburn-lowlight-1))))
      '(show-paren-mismatch ((t (:inherit font-lock-warning))))
-     '(show-paren-match ((t (:inherit font-lock-keyword))))
+     `(show-paren-match ((t (:foreground ,zenburn-blue))))
      '(match ((t (:weight bold))))
 
      `(cursor ((t (:background ,zenburn-fg :foreground ,zenburn-bg))))
