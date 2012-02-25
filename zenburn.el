@@ -126,7 +126,7 @@
      `(zenburn-blue-4 ((t (:foreground ,zenburn-blue-4))))
      `(zenburn-magenta ((t (:foreground ,zenburn-magenta))))
 
-     '(zenburn-title ((t (:inherit variable-pitch :inherit bold))))
+     '(zenburn-title ((t (:inherit (variable-pitch bold)))))
 
      '(font-lock-builtin
        ((t (:inherit zenburn-blue))))
@@ -522,14 +522,14 @@
      '(gnus-summary-normal-unread
        ((t (:inherit default :weight normal))))
      '(gnus-summary-high-unread
-       ((t (:inherit default :inherit bold))))
+       ((t (:inherit (default bold)))))
 
      '(gnus-summary-low-read
        ((t (:inherit zenburn-green :weight normal))))
      '(gnus-summary-normal-read
        ((t (:inherit zenburn-green :weight normal))))
      '(gnus-summary-high-read
-       ((t (:inherit zenburn-green :inherit bold))))
+       ((t (:inherit (zenburn-green bold)))))
 
      '(gnus-summary-low-ancient
        ((t (:inherit zenburn-blue :weight normal))))
