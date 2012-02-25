@@ -791,7 +791,25 @@
      '(w3m-image
        ((t (:inherit zenburn-primary-4))))
      '(w3m-form
-       ((t (:inherit widget-field)))))
+       ((t (:inherit widget-field))))
+
+     `(agda2-highlight-datatype-face
+       ((t (:inherit zenburn-blue-1))))
+     `(agda2-highlight-primitive-type-face
+       ((t (:inherit agda2-highlight-datatype-face))))
+     `(agda2-highlight-primitive-face
+       ((t (:inherit agda2-highlight-datatype-face))))
+     `(agda2-highlight-record-face
+       ((t (:forground default :inherit agda2-highlight-datatype-face))))
+     `(agda2-highlight-function-face
+       ((t (:forground default :inherit agda2-highlight-datatype-face))))
+     `(agda2-highlight-module-face
+       ((t (:inherit zenburn-magenta))))
+     `(agda2-highlight-number-face
+       ((t (:inherit zenburn-magenta))))
+     `(agda2-highlight-inductive-constructor-face
+       ((t (:inherit zenburn-term-dark-green))))
+     )
 
     ;; XXX: Updating this list is very tedious.
     ;;      Are these aliases still necessary?
